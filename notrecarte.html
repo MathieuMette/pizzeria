@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9c79bb18d6.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <!-- Police d'ecriture -->
+    <link rel="stylesheet" href="https://use.typekit.net/eer2hih.css">
+    <!-- Feuille perso CSS -->
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/notrecarte.css">
+    <link rel="icon" type="image/png" href="/assets/css/img/Logo_Don_pariggi.png"/>
+    <title>Pizzeria Don Pariggi - Pizza italienne authantique au feu de bois à emporter ou en livraison</title>
+    <!-- favicon -->
+<link rel="icon" href="assets/img/Logo_Don_parriggi.png" />
+</head>
+<body>
+    <!-- Ne pas toucher -->
+    <nav class="navbar navbar-expand-md navbar-dark dp-navbar d-flex fixed-top">
+        <div class="container-fluid d-flex">
+            <!-- Lien Logo -->
+            <a class="navbar-brand d-md-none" href="accueil.html">
+                <img src="/assets/img/Logo_Don_pariggi_Blanc.png" class="dp-logoNavBar" alt="">
+            </a>
+            <!-- Menu Burger Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Zone lien Nav -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 me-md-0 dp-navAutres align-items-center justify-content-around">
+                    <!-- Partie Gauche -->
+                    <!-- Notre Carte -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="notrecarte.html">Notre Carte</a>
+                    </li>
+                    <!-- Notre Histoire -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="accueil.html#histoire">Notre Histoire</a>
+                    </li>
+                    <!-- Logo centre web -->
+                    <li>
+                        <a class="navbar-nav me-auto order-md-1 d-none d-md-block" href="accueil.html">
+                            <img src="/assets/img/Logo_Don_pariggi_Blanc.png" class="dp-logoNavBar" alt="">
+                        </a>    
+                    </li>
+                    <!-- Partie Droite -->
+                    <!-- Commander Web -->
+                    <li class="nav-item d-none d-md-flex">
+                        <a tabindex="0"class="nav-link active popover-dismiss" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Par téléphone au" data-bs-content="01 02 00 00 00">Commander</a>
+                    </li>
+                    <!-- Commander Mobile -->
+                    <li class="nav-item d-flex d-md-none">
+                        <a class="nav-link active" aria-current="page" href="tel:+33711223344">Commander</a>
+                    </li>
+                    <!-- Livraison -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="accueil.html#livraison">Livraison</a>
+                    </li>
+                </ul>
+                <!-- Logo réseaux -->
+                <!-- Web -->
+                <ul class="me-auto mb-2 mb-md-0 me-md-0 ps-md-0 dp-navReseauxWeb d-none d-md-flex align-items-center justify-content-around">
+                    <!-- Facebook -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.facebook.com/"><span class="iconify-inline iconNav" data-icon="fa:facebook-square" style="color: white;" data-width="30"></span></a>
+                    </li>
+                    <!-- Instagram -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.instagram.com/"><span class="iconify-inline iconNav" data-icon="icon-park-outline:instagram" style="color: white;" data-width="30"></span>
+                        </a>
+                    </li>
+                    <!-- Tripadvisor -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.tripadvisor.fr/"><span class="iconify-inline iconNav" data-icon="fa-brands:tripadvisor" style="color: white;" data-width="30">
+                        </a>
+                    </li>
+                    <!-- UberEats -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.ubereats.com/fr"><span class="iconify-inline iconNav" data-icon="simple-icons:ubereats" style="color: white;" data-width="30"></span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Mobile -->
+                <ul class="me-auto mb-2 mb-md-0 me-md-0 ps-md-0 dp-navReseauxMob d-flex d-md-none align-items-center justify-content-around">
+                    <!-- Facebook -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.facebook.com/"><span class="iconify-inline iconNav" data-icon="fa:facebook-square" style="color: white;" data-width="40"></span></a>
+                    </li>
+                    <!-- Instagram -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.instagram.com/"><span class="iconify-inline iconNav" data-icon="icon-park-outline:instagram" style="color: white;" data-width="40"></span>
+                        </a>
+                    </li>
+                    <!-- Tripadvisor -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.tripadvisor.fr/"><span class="iconify-inline iconNav" data-icon="fa-brands:tripadvisor" style="color: white;" data-width="40">
+                        </a>
+                    </li>
+                    <!-- UberEats -->
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link active p-1" target="_blank" aria-current="page" href="https://www.ubereats.com/fr"><span class="iconify-inline iconNav" data-icon="simple-icons:ubereats" style="color: white;" data-width="40"></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Titre Pizza -->
+        <div class="text-center">
+            <h1>Nos pizzas</h1>
+        </div>
+        <!-- Partie Tomates -->
+        <div class="dp-tomate">
+            <div class="text-center h2">
+                <h2>Pizzas saute tomate</h2>
+            </div>
+            <!-- Présentation en colonne des pizzas sauce tomate-->
+            <div class="container d-none d-lg-block">
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                            <a href="/anchois.html">
+                                <h4 class="text-center" class="text-center">Anchois</h4 class="text-center">
+                                <img src="assets/img/Pizzas-cartes/Web/anchois.png" class="img-fluid dp-pizza-web">
+                                <h6 class="text-center">tomate, anchois, huile d’olive</h6>
+                            </a>
+                        </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Jambon Fromage</h4 class="text-center" class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/jambon.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, jambon, emmental</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Merguez</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/merguez.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, merguez, poivrons, mozzarella</h6></div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Primavera</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/primavera.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, ail, courgettes, poivrons, pesto maison, mozzarella, huile d’olive, crème balsamique</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Bolognaise</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/bolognaise.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, ail, mozzarella, emmental, bœuf haché, figatelli, chorizo</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Moussaka</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/moussaka.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, ail, aubergines, bœuf haché, crème fraîche, mozzarella, emmental</h6></div>
+                </div>
+            </div>
+            <!-- Présentation en slides des pizzas sauce tomate-->
+            <div id="carouselExampleCaptions" class="carousel slide text-center d-block d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner dp-carousel">
+                    <div class="carousel-item active">
+                        <img src="assets/img/Pizzas-cartes/Web/anchois.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Anchois</h4>
+                            <p>tomate, anchois, huile d’olive</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/jambon.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Jambon Fromage</h4>
+                            <p>tomate, jambon, emmental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/merguez.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Merguez</h4>
+                            <p>tomate, merguez, poivrons, mozzarella</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/primavera.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Primavera</h4>
+                            <p>tomate, ail, courgettes, poivrons, pesto maison, mozzarella, huile d’olive, crème balsamique</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/bolognaise.png" class="img-fluid" height="406" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Bolognaise</h4>
+                            <p>tomate, ail, mozzarella, emmental, bœuf haché, figatelli, chorizo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/moussaka.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Moussaka</h4>
+                            <p>tomate, ail, aubergines, bœuf haché, crème fraîche, mozzarella, emmental</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- prix des pizzas sauce tomate -->
+            <div class="container fw-bold text-white">
+                <div class="row text-center h3 m-4 dp-prix">
+                    <div class="col12 col-lg-2 offset-lg-2"><u>Tailles :</u></div>
+                    <div class="col12 col-md-4 col-lg-2">Petite <span class="h5">(8€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Moyenne <span class="h5">(10€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Grande <span class="h5">(12€)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Fromage -->
+        <div class="dp-fromage">
+            <!-- Présentation en colonne des pizzas bases fromage -->
+            <div class="text-center h2">
+                <h2>Pizzas base fromage</h2>
+            </div>
+            <div class="container d-none d-lg-block">
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Saumon</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/saumon.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, saumon fumé, emmental, aneth</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Tartiflette</h4 class="text-center" class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/tartiflette.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraiche, oignon, lardons, reblochon, pommes de terre, emmental</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Forestière</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/forestiere.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, jambon, champignons, emmental</h6>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Chèvre-miel</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/chevre-miel.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, jambon, champignons, emmental</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Roquefortoise</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/roquefort.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, roquefort, bœuf haché, emmental</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Alsacienne</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/alsacienne.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, saumon fumé, emmental, aneth</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Présentation en slides des pizzas base fromage-->
+            <div id="carouselExampleCaptions2" class="carousel slide  text-center d-block d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner dp-carousel">
+                    <div class="carousel-item active">
+                        <img src="assets/img/Pizzas-cartes/Web/saumon.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Saumon</h4>
+                            <p>crème fraîche, saumon fumé, emmental, aneth</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/tartiflette.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Tartiflette</h4>
+                            <p>crème fraiche, oignon, lardons, reblochon, pommes de terre, emmental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/forestiere.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Forestière</h4>
+                            <p>crème fraîche, jambon, champignons, emmental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/chevre-miel.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Chèvre-miel</h4>
+                            <p>tomate, ail, courgettes, poivrons, pesto maison, mozzarella, huile d’olive, crème balsamique</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/roquefort.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Roquefortoise</h4>
+                            <p>crème fraîche, roquefort, bœuf haché, emmental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/alsacienne.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption dp-textCarousel opacity-75">
+                            <h4>Alsacienne</h4>
+                            <p>crème fraîche, lardons, oignons, emmental</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- prix des pizzas base fromage -->
+            <div class="container fw-bold text-white">
+                <div class="row text-center h3 m-4 dp-prix">
+                    <div class="col12 col-lg-2 offset-lg-2"><u>Tailles :</u></div>
+                    <div class="col12 col-md-4 col-lg-2">Petite <span class="h5">(8€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Moyenne <span class="h5">(10€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Grande <span class="h5">(12€)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Prenium -->
+        <div class="dp-prenium">
+            <!-- Présentation en colonne des pizzas prenium -->
+            <div class="text-center h2">
+                <h2>Pizzas Prenium</h2>
+            </div>
+            <div class="container d-none d-lg-block">
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Cèpes</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/cepes.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">crème fraîche, cèpes, copeaux de parmesan, mozzarella, roquette, persillade, emmental</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Peperoni</h4 class="text-center" class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/pepperoni.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomate, scarmoza affumicata ,peperoni,poudre parmesan ,basilic frais</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center" class="text-center">Burrata Truffe</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/burrata-truffe.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">sauce tartufa, fior di latte, burrata entiere, carpaccio de truffes, huile de truffe</h6>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Genovese</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/genovese.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">pesto alla genovese (pignons, parmesan, basilic, ail, pecorino), mozzarella, tomates </h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Stracciatella</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/stracciatella.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">creme de ricotta/truffe, fior di latte , jambon blanc italien ,stracciatella, huile d'olive</h6>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-center">Italienne</h4 class="text-center">
+                        <img src="assets/img/Pizzas-cartes/Web/italienne.png" class="img-fluid dp-pizza-web">
+                        <h6 class="text-center">tomates, ail, mozzarella, pesto maison, pignons, tomates cerise, parmesan, jambon cru</h6></div>
+                </div>
+            </div>
+            <!-- Présentation en slides des pizzas prenium-->
+            <div id="carouselExampleCaptions3" class="carousel slide text-center d-block d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner dp-carousel">
+                    <div class="carousel-item active">
+                        <img src="assets/img/Pizzas-cartes/Web/cepes.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Cèpes</h4>
+                        <p>crème fraîche, cèpes, copeaux de parmesan, mozzarella, roquette, persillade, emmental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/pepperoni.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Peperoni</h4>
+                        <p>tomate, scarmoza affumicata ,peperoni,poudre parmesan ,basilic frais</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/burrata-truffe.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Burrata Truffe</h4>
+                        <p>sauce tartufa, fior di latte, burrata entiere, carpaccio de truffes, huile de truffe</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/genovese.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Genovese</h4>
+                        <p>pesto alla genovese (pignons, parmesan, basilic, ail, pecorino), mozzarella, tomates</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/stracciatella.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Stracciatella</h4>
+                        <p>tomate, ail, mozzarella, emmental, bœuf haché, figatelli, chorizo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Pizzas-cartes/Web/italienne.png" class="img-fluid" height="310" width="100%" alt="image">
+                        <div class="carousel-caption">
+                        <h4>Italienne</h4>
+                        <p>tomates, ail, mozzarella, pesto maison, pignons, tomates cerise, parmesan, jambon cru</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- prix des pizzas prenium -->
+            <div class="container fw-bold text-white">
+                <div class="row text-center h3 m-4 dp-prix">
+                    <div class="col12 col-lg-2 offset-lg-2"><u>Tailles :</u></div>
+                    <div class="col12 col-md-4 col-lg-2">Petite <span class="h5">(8€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Moyenne <span class="h5">(10€)</span></div>
+                    <div class="col12 col-md-4 col-lg-2">Grande <span class="h5">(12€)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Boissons -->
+        <div class="container text-white mt-4 mb-4 dp-boissons">
+            <div class="row">
+                <div class="col h2 text-center dp-titreBoissons">
+                    <h2>Nos Boissons</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Soft -->
+                <div class="col-12 col-md-6 p-4 pt-md-0">
+                    <!-- Titre Soft -->
+                    <div class="row text-start">
+                        <div class="col12">
+                            <u>Soft :</u>
+                        </div>
+                    </div>
+                    <!-- Tous les softs -->
+                    <div class="row">
+                        <!-- Nom Boissons -->
+                        <div class="col-9 text-start">
+                            <div class="soft">Coca-cola</div>
+                            <div class="soft">Jus de fruit</div>
+                            <div class="soft">Eau</div>
+                        </div>
+                        <!-- Prix boissons -->
+                        <div class="col-3 text-end">
+                            <div class="prixSoft">5€</div>
+                            <div class="prixSoft">5€</div>
+                            <div class="prixSoft">5€</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Alcool -->
+                <div class="col-12 col-md-6 p-4 pt-md-0">
+                    <!-- Titre Alcool -->
+                    <div class="row text-start">
+                        <div class="col">
+                            <u>Alcool</u>
+                        </div>
+                    </div>
+                    <!-- Tous les Alcool -->
+                    <div class="row">
+                        <!-- Nom Boissons -->
+                        <div class="col-9 text-start">
+                            <div class="alcool">Vin rouge</div>
+                            <div class="alcool">Vin blanc</div>
+                            <div class="alcool">Digestif</div>
+                        </div>
+                        <!-- Prix boissons -->
+                        <div class="col-3 text-end">
+                            <div class="prixAlcool">35€</div>
+                            <div class="prixAlcool">35€</div>
+                            <div class="prixAlcool">25€</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <!-- Ne pas toucher -->
+    <footer class="container-fluid align-items-center justify-content-center p-4" id="footer">
+        <div class="row text-center">
+            <!-- Logo -->
+            <div class="col12 col-lg-3 d-flex justify-content-center align-items-center">
+                <img class="img-fluid logoFooter" src="/assets/img/Logo_Don_pariggi_Blanc.png" alt="">
+            </div>
+            <!-- Map + textes -->
+            <div class="col12 col-lg-6">
+                <!-- Map Google -->
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.2540201406055!2d2.3528898348876957!3d48.855788399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd60e8a84b%3A0x156e41b9e9cf429b!2sDon%20Giovanni!5e0!3m2!1sfr!2sfr!4v1650198294148!5m2!1sfr!2sfr" width="600" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <!-- Textes -->
+                <div class="row textFooter text-center">
+                    <!-- Horaires -->
+                    <div class="col12 col-md-4 text-center">
+                        <div class="text-decoration-underline">Horaires :</div>
+                        <div>17h-22h 7J/7</div>
+                    </div>
+                    <!-- Adresse -->
+                    <div class="col12 col-md-4 text-center">
+                        <div class="text-decoration-underline">Adresse :</div>
+                        <div>123 Rue Eric Pariggi, <br>01000 Ville</div>
+
+                    </div>
+                    <!-- Telephone -->
+                    <div class="col12 col-md-4 text-center">
+                        <div class="text-decoration-underline">Téléphone :</div>
+                        <div><a class="lienTel" href="tel:+33302000000">03 02 00 00 00</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- réseaux sociaux -->
+            <div class="col12 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <!-- Facebook -->
+                    <a class="m-3 p-1" target="_blank" aria-current="page" href="https://www.facebook.com/">
+                        <span class="iconify-inline" data-icon="fa:facebook-square" style="color: white;" data-width="60"></span>
+                    </a>
+                    <!-- Instagram -->
+                    <a class="m-3 p-1" target="_blank" aria-current="page" href="https://www.instagram.com/">
+                        <span class="iconify-inline" data-icon="icon-park-outline:instagram" style="color: white;" data-width="60"></span>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <!-- Tripadvisor -->
+                    <a class="m-3 p-1" target="_blank" aria-current="page" href="https://www.tripadvisor.fr/">
+                        <span class="iconify-inline" data-icon="fa-brands:tripadvisor" style="color: white;" data-width="60">
+                    </a>
+                    <!-- UberEats -->
+                    <a class="m-3 p-1" target="_blank" aria-current="page" href="https://www.ubereats.com/fr">
+                        <span class="iconify-inline" data-icon="simple-icons:ubereats" style="color: white;" data-width="60"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+            trigger: 'focus'
+        })
+    </script>
+</body>
+</html>

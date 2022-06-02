@@ -1,0 +1,42 @@
+/* Carousel */
+.dp-carousel {
+    margin-top: 9vh;
+}
+.hauteurCarousel { 
+    max-height: 350px;
+}
+
+/* Bienvenuti */
+#bienvenuti {
+    color: #fff;
+}
+h2 {
+    font-family: 'Active';
+}
+.textBienvenuti {
+    font-family: 'Poppins';
+}
+
+/* Zone Livraison */
+#livraison {
+    background-color: #da2c38;
+    color: #fff;
+    border-radius: 2em;
+    font-family: 'Poppins';
+    scroll-margin-top: 6rem;
+}
+#aemporter .h2, #enlivraison .h2 { 
+    text-transform: uppercase;
+}
+
+/* Zone histoire */
+#histoire {
+    scroll-margin-top : 20vh;
+    color: #fff;
+}
+.textHistoire { 
+    font-family: 'Poppins';
+}
+/* .imagePizzeria {
+    max-height : 400px;
+} */

@@ -1,0 +1,66 @@
+body{
+    color: #FFFFFF;
+}
+
+h1,h2,h3 {
+    font-family: 'Active';
+    color: #FFFFFF;
+}
+
+main{
+    margin-top: 15vh;
+}
+
+.dp-img{
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+a { 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* carousel */
+.dp-carousel {
+    border-radius: 1rem;
+}
+.dp-textCarousel { 
+    background-color: #ffffff;
+    border-radius: 2rem;
+    color: #201f1f;
+}
+
+/* partie tomates */
+.dp-tomate { 
+    border: 2px solid #da2c38;
+    margin: 2rem 4rem 0 4rem;
+    border-radius: 4rem;
+}
+/* partie fromage */
+.dp-fromage, .dp-prenium { 
+    border: 2px solid #da2c38;
+    margin: 4rem 4rem 0 4rem;
+    border-radius: 4rem;
+}
+
+/* Parie prix */
+.dp-prix {
+    font-family: 'Active'
+}
+
+/* Partie image Web */
+.dp-pizza-web {
+    border-radius:2rem;
+}
+
+/* Partie boissons */
+.dp-boissons { 
+    background-color: #da2c38;
+    border-radius: 3rem;
+    font-family: 'Poppins';
+}
+.dp-titreBoissons { 
+    font-family: 'Active'
+}
+
